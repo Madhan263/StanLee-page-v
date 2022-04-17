@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Pacifico&family=Roboto+Slab&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: roboto, "Roboto slab", "serif";
+  color: #333;
+}
+
+html,
+body {
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5rem;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.nav a:hover {
+  background-color: rgb(245, 34, 104);
+}
+
+.main-header {
+  background-image: url("https://www.nawpic.com/media/2020/abstract-nawpic-19.jpg");
+  background-size: contain;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  padding-bottom: 30px;
+}
+
+.name {
+  text-align: center;
+  margin: 30px 0 30px;
+  font-size: 4em;
+  font-family: "Lobster Two", "serif";
+  font-weight: normal;
+  color: whitesmoke;
+}
+
+.content-section {
+  margin: 1em 1em 2em;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-family: "Lobster Two", "serif";
+  font-size: 2.5em;
+  color: #222;
+  text-align: center;
+}
+
+.about-img {
+  float: right;
+  height: fit-content;
+  width: 800px;
+  margin: 15px;
+  border-radius: 10px;
+  border-color: #111;
+  border-style: solid;
+  box-shadow: 10px 10px 5px 2px grey;
+}
+
+.main-footer {
+  background-color: #222;
+  padding: 0.25em 0;
+  color: whitesmoke;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 20px 0 0;
+  width: 30px;
+  height: 30px;
+}
+
+.footer-name {
+  font-size: x-large;
+  padding-left: 45px;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.57em;
+  cursor: pointer;
+}
+
+.btn-header {
+  margin: 0.5em 30% 0.5em 30%;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-collapse: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-header:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tour-row {
+  border-bottom: 1px solid #777;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.tour-row:last-child {
+  border-bottom: none;
+}
+
+.tour-item {
+  padding-right: 0.5em;
+  display: inline-block;
+}
+
+.tour-date {
+  color: #555;
+  font-weight: bold;
+  width: 11%;
+}
+
+.tour-city {
+  width: 24%;
+}
+
+.tour-arena {
+  width: 42%;
+}
+
+.tour-btn {
+  max-width: 19%;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #2d9cdb;
+}
+
+.shop-item {
+  margin: 40px;
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.shop-item-img {
+  height: 250px;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.shop-item-color {
+  flex-grow: 1;
+  color: #666;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cart-header {
+  font-weight: bold;
+  font: size 1.2em;
+  color: #333;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+
+.cart-item-img {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-danger {
+  color: white;
+  background-color: rgb(245, 42, 42);
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: rgb(228, 3, 3);
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56ccf2;
+  background-color: whitesmoke;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
+.btn-purchase {
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.5em;
+}
